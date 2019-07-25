@@ -31,24 +31,31 @@ img:hover {
 </style>
 </head>
 
-<h1>I am the apricot... maybe</h1>
 
-    <body>
-        <div class="container">
-            <div class="row">
-                <p>Hover over the mighty apricot:</p>
-                <img src="apricot.jpg" alt="Apricot" width="886" height="690">
-            </div>
-            <div class="row">
-                    <audio controls>
-                            <source src="speech_20190618021043006.mp3" type="audio/mp3">
-                        Your browser does not support the audio element.
-                    </audio>
-            </div>
+<body>
+
+    <div class="container center">
+        <div class="row center">
+            <h1 class="center">I am the apricot... maybe</h1>
         </div>
+        <div class="row center">
+            <p>Hover over the mighty apricot:</p>
+            <img src="apricot.jpg" alt="Apricot" width="886" height="690">
+        </div>
+        <div class="row">
+                <audio controls autoplay loop hidden>
+                        <source src="speech_20190618021043006.mp3" type="audio/mpeg">
+                        <p>If you can read this, your browser does not support the audio element.</p>
+                        </audio>
+                <!-- <audio autoplay loop>
+                        <source src="speech_20190618021043006.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio> -->
+        </div>
+    </div>
 
+</body>
 
-    </body>
 </html>
 
 
